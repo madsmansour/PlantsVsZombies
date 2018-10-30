@@ -9,7 +9,7 @@ public class Zombie {
 
     public Zombie()
     {this.hp = 100;
-        this.dmg = ((int)Math.random()*20+1);
+        this.dmg = (int)(Math.random()*20+1);
     }
 
     public int zombieAttack()
@@ -24,7 +24,7 @@ public class Zombie {
     }
 
     public int changeDmg()
-    {this.dmg = ((int)Math.random()*20+1);
+    {this.dmg = (int)(Math.random()*20+1);
 
         return dmg;
     }

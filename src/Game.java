@@ -1,8 +1,8 @@
 public class Game {
 
     public static void start() {
-        Plant plant1 = new Plant();
-        Zombie zombie1 = new Zombie();
+        Plant plant1 = new PeaShootingPlant();
+        Zombie zombie1 = new CrazyZombie();
         while (zombie1.hp > 0 && plant1.hp > 0) {
             zombie1.zombieAttack();
             plant1.plantTakeDmg(zombie1.changeDmg());

@@ -21,5 +21,4 @@ public class Plant {
         System.out.println("The plant has " + hp + " HP left");
         return hp;
     }
-
-}
+    }
